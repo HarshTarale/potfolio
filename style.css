@@ -144,5 +144,6 @@ input[type="button"]:hover {
 @media (max-width:320px){
     .container {
         width: 60vw;
+        background-color: #52d856;
     }
 }
