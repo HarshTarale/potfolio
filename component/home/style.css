@@ -202,7 +202,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    line-height: 4vh; 
+    line-height: 4vw; 
 }
 .page-2-count-1 p b{
     color: aqua;
@@ -222,7 +222,7 @@
         display: flex;
         flex-direction: column;
         gap: 2vh;
-        line-height:2vh; 
+        line-height:15px; 
     }
     .page-2 .page-2-count img{
         height: 30vh;
