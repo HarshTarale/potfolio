@@ -104,16 +104,17 @@ input[type="button"]:hover {
     #error-message {  
         font-size: 14px;
       }}
-@media (max-width:767px){
-    body {  
+@media (426px < width < 768px){
+    body { 
+        
         background: linear-gradient(217deg, rgb(0, 0, 0), rgba(255,0,0,0) 70.71%),
                 linear-gradient(127deg, rgba(0, 98, 105, 0.897), rgba(4, 16, 50, 0.358) 70.71%),
                 linear-gradient(336deg, rgba(0, 0, 0, 0.744), rgba(0,0,255,0) 70.71%);
+                color: white;
     }
     .container {
-        width:35vw;
-        padding: 20px; 
-        background-color: #3e8e41;
+        width:60vw;
+        padding: 3rem; 
     }
     label {
         margin-bottom: 5px;
@@ -122,10 +123,12 @@ input[type="button"]:hover {
         width: 90%;
         padding: 5px;
         margin-bottom:7px;
-        border: 1px solid #ccc;
+        background-color: #ffffff14;
+        border: 1px solid #ffffff;
         outline: none;
     }
     input[type="button"] {
+        width: 94%;
         padding: 8px;
         background-color: #5becff;   
         color: black;
@@ -138,3 +141,40 @@ input[type="button"]:hover {
     #error-message {
         height: 10px;    
     }}
+@media (0px < width < 426px) {
+    body {
+        
+        background: linear-gradient(217deg, rgb(0, 189, 173), rgba(255,0,0,0) 70.71%),
+                linear-gradient(127deg, rgba(0, 0, 0, 0.897), rgba(4, 16, 50, 0.358) 70.71%),
+                linear-gradient(336deg, rgba(0, 0, 0, 0.744), rgba(0,0,255,0) 70.71%);
+    }
+    .container {
+        width: 65vw;
+        padding: 3rem;
+        color: white;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    label {
+        display: block;
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    input[type="text"], input[type="password"] {
+       border-radius: 3px;
+    }
+    input[type="button"] {
+       font-size: 16px;
+       font-weight: bold;
+    }
+    input[type="button"]:hover {
+        background-color: #0089ae;
+    }
+    #error-message {
+        color: red;
+        height: 1rem;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+}
