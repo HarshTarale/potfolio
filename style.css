@@ -113,6 +113,7 @@ input[type="button"]:hover {
     .container {
         width:35vw;
         padding: 20px; 
+        background-color: #3e8e41;
     }
     label {
         margin-bottom: 5px;
@@ -137,13 +138,3 @@ input[type="button"]:hover {
     #error-message {
         height: 10px;    
     }}
-@media (max-width:573px){
-    .container {
-        width: 50vw;
-    }}
-@media (max-width:320px){
-    .container {
-        width: 60vw;
-        background-color: #52d856;
-    }
-}
