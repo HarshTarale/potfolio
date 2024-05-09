@@ -242,6 +242,7 @@ h2:hover{
     display: flex;
     padding: 1vw;
 }
+
 .page-3-count-box{
     width: 20vw;
     padding: 15px 6px;
@@ -282,6 +283,7 @@ h2:hover{
     font-size: 1rem;
     text-align: right;
 }
+
 
 .page-4{
     background-image: linear-gradient(rgba(0, 0, 0, 0.879),rgba(0, 0, 0, 0.909)),url(backgroundpage-3.jpg);
@@ -354,36 +356,22 @@ justify-content: center;
     
     .page-4-count .page-4-count-boxsn{
         width:30vw;
-        border: solid 1.4px rgb(1, 213, 255);
+        border: solid 1px rgb(1, 213, 255);
         padding: 2vw ;display: flex;
         flex-direction: column;
         gap: 3vh;
         font-size: 15px;
     }
-    .page-4-count-boxsn .info{
-        display: flex;
+    .page-4-count-box{
+        position: absolute;
+        visibility: hidden;
     }
-    .page-4-count-boxsn .info img{
-        height: 4vh;
-        border-radius:70px ;
-    }
-    .page-4-count-boxsn .lol{
-        width: 100%;
-        
-        display: flex;
-        flex-direction: row;
-        gap: 5px;
-    }
-    .page-4-count-boxsn .lol div{
-        width:30px ;
-        height: 12px;
-        border-radius: 100px;
-        background-color: rgb(1, 213, 255);
-    }
+   
+   
+   
+  
     
-    .page-4-count-boxsn p{
-        text-align:right;
-    }
+   
     
     
 }
