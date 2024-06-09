@@ -443,9 +443,9 @@ justify-content: center;
         padding: 3vw 1.4vw;
         display: flex;
         flex-direction: column;
-        gap: 1vw;
-         box-shadow: 0px 0px 2vw rgba(0, 255, 255, 0.233);
-        background-color: rgba(0, 179, 255, 0.119);
+        gap: 2vw;
+         box-shadow: 0px 0px 2vw rgba(0, 255, 255, 0.667);
+        background-color: rgba(0, 179, 255, 0.128);
     }
     .page-5-count-box-2 input,.page-5-count-box-2 textarea{
         padding: 1vw;
@@ -464,13 +464,15 @@ outline:solid 2px  rgba(0, 255, 255, 0.489) ;
 
  }
  .page-5-count-box-2 button{
-    padding: 1vw ;
+    padding: 1vw  2vw;
     border-radius: 10px 10px 40px 40px;
     outline: none;
     border: none;
     background-color: aqua;
     font-weight:600;
-    color:rgb(0, 0, 0)
+    color:rgb(0, 0, 0);
+    margin-top: 4vw;
+    
  }
 
  .page-5-count-box-2 input:focus {
@@ -486,7 +488,9 @@ outline:solid 2px  rgba(0, 255, 255, 0.489) ;
 }
 
 @media (width < 768px) {
-
+    .page-5-count-box-2 h3{
+        margin-left: 5vw;
+    }
     .page-5-count{
         flex-direction: column-reverse;
         gap: 10vw;
@@ -494,6 +498,12 @@ outline:solid 2px  rgba(0, 255, 255, 0.489) ;
         padding-top:3vw ;
         
     }
+    .page-5-count-box-2 input,.page-5-count-box-2 textarea{
+        padding: 1vw 5vw ;
+
+        
+    }
+    
     
 }
 
