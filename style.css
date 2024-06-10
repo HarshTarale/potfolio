@@ -214,8 +214,10 @@ h2:hover{
 .page-2 .page-2-count{
     width: 100%;
     display: flex;
+    justify-content: space-around;
     gap: 8vw;
-    margin-top:10vh ;}
+    margin-top:10vh 
+    ;}
 
 .page-2 .page-2-count img{
     height: 50vh;
@@ -317,6 +319,7 @@ h2:hover{
     text-align: right;}
 
 .page-4{
+    width: 100vw;
     background-image: linear-gradient(rgba(0, 0, 0, 0.879),rgba(0, 0, 0, 0.909)),url(backgroundpage-3.jpg);
     display: flex;
     flex-direction: column;
@@ -340,21 +343,21 @@ justify-content: center;
     background-image: url(background-home-2.jpg);
     background-position: center;
     background-size: cover;
-    border: solid 1px rgb(1, 255, 251);}
+    border: solid 1px rgb(0, 238, 255)}
     .page-4-count-box:hover{
-        box-shadow: 0px 0px 4px rgb(0, 255, 255);
+        box-shadow: 0px 0px 4px rgb(0, 238, 255);
 
     }
 
 .page-4-count .page-4-count-boxsn{
     width:200px;
-    border: solid 1px rgb(1, 255, 247);
+    border: solid 0.1vw rgb(0, 238, 255);
     padding: 2vw ;display: flex;
     flex-direction: column;
     gap: 3vh;
     font-size: 15px;}
     .page-4-count-boxsn:hover{  
-          box-shadow: 0px 0px 4px rgb(0, 255, 255);
+          box-shadow: 0px 0px 4px rgb(0, 238, 255);
     }
 
 .page-4-count-boxsn .info{
@@ -387,7 +390,7 @@ justify-content: center;
 @media (0px < width < 768px) {
     .page-4-count .page-4-count-boxsn{
         width:30vw;
-        border: solid 1px rgb(1, 213, 255);
+        border: solid 0.1vw rgb(0, 238, 255);
         padding: 2vw ;display: flex;
         flex-direction: column;
         gap: 2vh;
