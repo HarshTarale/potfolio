@@ -260,8 +260,8 @@ h2:hover{
 
 .page-3{
     width: 100vw;
-    height: 50vh;
-    padding: 0px 4vw;
+    height:auto;
+    padding:7vw 0vw;
     background-image: linear-gradient(rgb(0, 0, 0),rgba(0, 0, 0, 0.89)), url(backgroundpage-3.jpg);
     background-size: cover;
     background-position: center;
@@ -270,30 +270,41 @@ h2:hover{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 1rem; }
+    gap:7vw; }
 
 .page-3-count{
-    width: 100%;
-    gap:2vw;
-    display: flex;
-    padding: 1vw;}
+    width: 80vw;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+align-content:space-around;  
+gap: 10px;  
+    padding: 2vw 0vw;
+}
     
 .page-3-count-box{
-    width: 20vw;
+    min-width: 160px;
+    max-width:320px;
     padding: 15px 6px;
-    height: 120px;
+    min-height: 160px;
+    max-height:300px ;
     gap: 10px;
  display: flex;
  flex-direction: column;
+ flex-wrap: wrap;
  justify-content: space-between;
     border: solid 0.1vw rgb(0, 238, 255);
-    font-size: 1.8vw;}
+    font-size: 1.8vw;
+}
 
 .page-3-count-box:hover{
     box-shadow: 0px 0px 10px 0.1px rgb(0, 208, 255);}
 
 .page-3-count-box h4{
-    color: rgb(0, 144, 166); }
+    color: rgb(0, 144, 166);
+    font-size: 16px;
+
+ }
 
 .page-3-count-box .pre{
     width:100%;
@@ -301,7 +312,8 @@ h2:hover{
     align-content: center;
     justify-content: center;
     flex-direction: row;
-    gap: 1vw;}
+    gap: 1vw;
+}
 
 .page-3-count-box .pre div{
     width: 0.5vw;
@@ -318,87 +330,23 @@ h2:hover{
     font-size: 1rem;
     text-align: right;}
 
-.page-4{
-    width: 100vw;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.879),rgba(0, 0, 0, 0.909)),url(backgroundpage-3.jpg);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color:white;
-    gap: 20px;
-    padding: 2rem;}
-
-.page-4 .page-4-count{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-align-items: center;  
-justify-content: center;
-  padding: 0px 5vw;
-  gap: 10px;}
-
-.page-4-count .page-4-count-box{
-    width:200px;
-    height: 129px;
-    background-image: url(background-home-2.jpg);
-    background-position: center;
-    background-size: cover;
-    border: solid 1px rgb(0, 238, 255)}
-    .page-4-count-box:hover{
-        box-shadow: 0px 0px 4px rgb(0, 238, 255);
-
+    .page-3-count-box .pre img{
+        min-width: 50px;
+        max-width: 50px;
     }
-
-.page-4-count .page-4-count-boxsn{
-    width:200px;
-    border: solid 0.1vw rgb(0, 238, 255);
-    padding: 2vw ;display: flex;
-    flex-direction: column;
-    gap: 3vh;
-    font-size: 15px;}
-    .page-4-count-boxsn:hover{  
-          box-shadow: 0px 0px 4px rgb(0, 238, 255);
+    .page-3-count-box .pre-2{
+        width: 130px;
+        height: 127px;
+        word-wrap: break-word;
+        position:absolute;
+        background-color: black;
+        visibility: hidden;
     }
-
-.page-4-count-boxsn .info{
-    display: flex;}
-
-.page-4-count-boxsn .info img{
-    height: 4vh;
-    border-radius:70px ;}
-
-.page-4-count-boxsn .lol{
-    width: 100%; 
-    display: flex;
-    flex-direction: row;
-    gap: 5px;}
-
-.page-4-count-boxsn .lol div{
-    width:30px ;
-    height: 12px;
-    border-radius: 100px;
-    background-color: rgb(0, 238, 255);}
-
-.page-4-count-boxsn .lol .col{    
-    background: none;
-    border: solid 1px white;}
-
-.page-4-count-boxsn p{
-    text-align:right;}
-
-
-@media (0px < width < 768px) {
-    .page-4-count .page-4-count-boxsn{
-        width:30vw;
-        border: solid 0.1vw rgb(0, 238, 255);
-        padding: 2vw ;display: flex;
-        flex-direction: column;
-        gap: 2vh;
-        font-size: 15px;}
-
-    .page-4-count-box{
-        position: absolute;
-        visibility: hidden;}
+    .page-3-count-box .pre-2 p{
+        font-size:13px;
+    }
+    .page-3-count-box:hover .pre-2{
+        visibility: visible;
     }
 
 .page-5{
@@ -415,8 +363,8 @@ justify-content: center;
     justify-content: space-around;
 
 
-}
 
+}
 .page-5-count-box-1{
     width: 34vw ;
     display: flex;
@@ -425,7 +373,9 @@ justify-content: center;
     flex-direction: row;
      gap: 4vw;
     }
-
+    .page-5-count-box-1 p{
+        text-align: center;
+    }
 .page-5-count-box-1 p a{
     font-size: 16px;
     text-decoration: none;
